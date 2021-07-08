@@ -891,6 +891,70 @@ hr {
   font-weight: 600;
 }
 
+
+
+
+
+
 .scrolled {
   display: none;
+}
+
+.clipperz-find-us {
+  text-align: center;
+}
+
+.clipperz-find-us h2 {
+  color:rgba(145, 79, 9, 0.5);
+  margin-bottom: 50px;
+  margin-top: 50px;
+  font-weight: 900;
+}
+
+.clipperz-find-us h3 {
+  margin-bottom: 50px;
+  margin-top: 50px;
+  font-weight: 600;
+}
+
+
+
+.clipperz-pricing {
+  text-align: center;
+}
+
+.clipperz-pricing h2 {
+  color:rgba(145, 79, 9, 0.5);
+  margin-bottom: 50px;
+  margin-top: 50px;
+  font-weight: 900;
+}
+
+.clipperz-pricing h3 {
+  margin-bottom: 50px;
+  margin-top: 50px;
+  font-weight: 600;
+}
+
+
+.clipperz-map {
+  -webkit-filter: grayscale(100%);
+     -moz-filter: grayscale(100%);
+      -ms-filter: grayscale(100%);
+       -o-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+
+.clipperz-midroll-image>img {
+  width: 100%;
+}
+
+#hero {
+  width: 100%;
+  height: 75vh;
+  background-image: url("../img/barbershop.jpeg");
+  background-attachment: fixed;
+  background-position: top center;
+  background-size: cover;
+  position: relative;
 }
