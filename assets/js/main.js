@@ -4,8 +4,34 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
+
+$(function() {
+  var header = $(".nav-link");
+
+  $(window).scroll(function() {    
+      var scroll = $(window).scrollTop();
+      if (scroll >= 400) {
+        console.log("yep");
+          header.addClass("scrolled");
+          header.removeClass("nav-link");
+      } else {
+        header.addClass("nav-link");
+        header.removeClass("scrolled");
+      }
+  });
+
+});
+
+
 (function() {
   "use strict";
+
+
+  
+
+
+
+
 
   /**
    * Easy selector helper function
