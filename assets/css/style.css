@@ -847,7 +847,11 @@ section {
     margin-right: 20px;
     margin-left: 20px;
   }
-  
+
+  .scrolled {
+    display: none;
+  }
+
 }
 
 @media (max-width: 768px) {
@@ -862,8 +866,19 @@ section {
   }
   .navbar-light .navbar-nav .nav-link {
     color: black;
+    padding-top: 25px;
+    padding-bottom: 15px;
+  }
+  .navbar-toggler {
+    border: 0;
+  }
+  .navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
   }
 }
+
+
 
 .navbar {
   font-family: Playfair Display;
@@ -896,9 +911,7 @@ hr {
 
 
 
-.scrolled {
-  display: none;
-}
+
 
 .clipperz-find-us {
   text-align: center;
