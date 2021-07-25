@@ -13,3 +13,4 @@ $(function() {
     $(".navbar-collapse").collapse('hide');
 });
 });
+
