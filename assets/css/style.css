@@ -47,6 +47,12 @@
   .scrolled {
     display: none;
   }
+
+  #phone-href-desktop {
+    color: red;
+    font-weight: 1000;
+    font-size: 1.2rem;
+  }
   /* end navbar desktop */
 
   .carousel-item {
@@ -57,7 +63,7 @@
   .clipperz-hero {
     width: 100%;
     height: 75vh;
-    background-image: url("../img/clipz/image-9-clipped.png");
+    background-image: url("../img/clipz/image-13-clipped.png");
     background-attachment: scroll;
     background-position: top center;
     background-size: cover;
@@ -222,7 +228,7 @@
   .clipperz-hero {
     width: 100%;
     height: 75vh;
-    background-image: url("../img/clipz/image-9-first-view-inside.jpeg");
+    background-image: url("../img/clipz/image-13-clipped.png");
 
     background-attachment: scroll;
     background-position: top center;
@@ -243,7 +249,7 @@
     margin-top: 30px;
     margin-bottom: 30px;
   }
-  
+
   /* End Clipperz All Sections */
 
   hr {
