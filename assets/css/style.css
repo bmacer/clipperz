@@ -13,15 +13,9 @@
     font-family: 'Encode Sans SC', sans-serif;
     list-style-type: none;
     text-transform: uppercase;
-  
-  }
-  
-  h3 {
-      margin-left: 20%;
-    margin-right: 20%;
   }
 
-  /* begin navbar for desktop */
+  /* begin navbar desktop */
   .navbar {
     background: none;
     font-family: Playfair Display;
@@ -34,10 +28,12 @@
   .navbar-brand {
     display: none;
   }
+
   .navbar-light .navbar-nav .nav-link {
     color: white;
     letter-spacing: .1rem;
   }
+
   .topnav-centered {
     float: none;
     position: absolute;
@@ -47,17 +43,17 @@
     margin-right: 20px;
     margin-left: 20px;
   }
+
   .scrolled {
     display: none;
   }
-  /* end navbar for desktop */
+  /* end navbar desktop */
 
   .carousel-item {
     max-height: 1000px;
-    /* display: flex; */
   }
 
-    /* Hero Section */
+  /* Hero Section */
   .clipperz-hero {
     width: 100%;
     height: 75vh;
@@ -75,15 +71,15 @@
   }
 
   .clipperz-section h2, h3 {
-    margin-bottom: 50px;
-    margin-top: 50px;
+    margin: 50px 20% 50px 20%;
     font-weight: 600;
   }
 
-  /* .clipperz-section h2 {
-    color:rgba(145, 79, 9, 0.5);
-    font-size: 20px;
-  } */
+  .clipperz-section h4 {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-weight: 600;
+  }
 
   .clipperz-section h3 {
     font-size: 30px;
@@ -99,21 +95,12 @@
     margin: 40px auto;
   }
 
-
   .clipperz-staff .card {
     margin: 10px auto;
   }
 
-  .with-sub {
-    margin-bottom: 4px;
-  }
-
-  /* .clipperz-book-appointment li {
-    list-style-type: none;
-    font-size: calc(1.3rem + .6vw);
-  } */
-
   .clipperz-map-div {
+    margin-top: 40px;
     position: relative;
     overflow: hidden;
     width: 100%;
@@ -140,6 +127,10 @@
     width: 100%;
   }
 
+  h2.remove-bottom-margin {
+    margin-bottom: 4px;
+  }
+
 }
 
 /* mobile */
@@ -148,8 +139,8 @@
     display: none;
   }
 
-  /* testing more precise anchor links */
-  .anchor{
+  /* more precise anchor links */
+  .anchor {
     display: block;
     height: 56px; /*same height as header*/
     margin-top: -56px; /*same height as header*/
@@ -162,7 +153,6 @@
 
   .carousel-item {
     max-height: 240px;
-    /* display: flex; */
   }
 
   h1, h2, h3, h4, h5, h6, li, a {
@@ -226,9 +216,6 @@
     outline: none;
     box-shadow: none;
   }
-
-  
-
   
 
   /* Hero Section */
@@ -246,27 +233,17 @@
   /* Begin Clipperz All Sections */
   .clipperz-section {
     text-align: center;
-    /* padding-top: 40px; */
   }
-
-  /* h2, h3 {
-    margin-bottom: 30px;
-    margin-top: 30px;
-    font-weight: 600;
-  } */
-
-  /* .clipperz-section h2 {
-    color:rgba(145, 79, 9, 0.5);
-    font-size: 20px;
-  } */
-
-  /* .clipperz-section h3 {
-    font-size: 30px;
-  } */
 
   .clipperz-section li {
     font-size: 20px
   }
+
+  .clipperz-section h3 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
   /* End Clipperz All Sections */
 
   hr {
@@ -274,19 +251,9 @@
     margin: 40px auto;
   }
 
-
   .clipperz-staff .card {
     margin: 10px auto;
   }
-
-  /* .with-sub {
-    margin-bottom: 4px;
-  } */
-
-  /* .clipperz-book-appointment li {
-    list-style-type: none;
-    font-size: calc(1.3rem + .6vw);
-  } */
 
   .clipperz-map-div {
     position: relative;
@@ -313,6 +280,10 @@
 
   .clipperz-midroll-image>img {
     width: 100%;
+  }
+
+  h2.remove-bottom-margin {
+    margin-bottom: 4px;
   }
 
 }
