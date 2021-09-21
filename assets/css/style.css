@@ -148,14 +148,12 @@
   /* more precise anchor links */
   .anchor {
     display: block;
-    height: 56px; /*same height as header*/
-    margin-top: -56px; /*same height as header*/
+    height: 103px; /*same height as header*/
+    margin-top: -103px; /*same height as header*/
     visibility: hidden;
   }
 
-  .main-title {
-    font-size: 26px;
-  }
+
 
   .carousel-item {
     max-height: 240px;
@@ -222,7 +220,15 @@
     outline: none;
     box-shadow: none;
   }
-  
+  .navbar-no-padding {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  } 
+  .main-title {
+    font-size: 26px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
 
   /* Hero Section */
   .clipperz-hero {

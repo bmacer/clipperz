@@ -36,8 +36,8 @@
 
 <body>
 
-<!-- Navbar -->
-<nav class="navbar navbar-expand-sm fixed-top navbar-light">
+<!-- Navbar Desktop -->
+<nav class="desktop-only navbar navbar-expand-sm fixed-top navbar-light">
   <div class="container-fluid">
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -73,7 +73,52 @@
     </div>
   </div>
 </nav>
-<!-- End Navbar -->
+<!-- End Navbar Desktop -->
+
+<!-- Navbar Mobile -->
+<nav class="mobile-only navbar navbar-expand-sm fixed-top navbar-light navbar-no-padding">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <a class="navbar-brand main-title navbar-toggler" href="#"
+    data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" 
+    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"
+    >
+      <img class="inline" src="assets/img/clipz/logo-clipped.png" />
+      <!-- hello -->
+    </a>
+    
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav topnav-centered">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#clipperz-section-services">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#clipperz-section-staff">Staff</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#clipperz-hours">Hours</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#clipperz-section-prices">Prices</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#clipperz-find-us">Find Us</a>
+        </li>
+        <!-- <li class="nav-item">
+          <a id="phone-href-desktop" class="nav-link phone" href="tel:828-484-7220">Call (828) 484-7220</a>
+        </li> -->
+      </ul>
+      
+    </div>
+  </div>
+</nav>
+<!-- End Navbar Mobile -->
 
 <!-- Hero Section -->
 <section id="clipperz-hero" class="clipperz-hero d-flex align-items-center"></section>
