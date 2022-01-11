@@ -41,3 +41,5 @@ jobs:
           SUPER_SECRET: ${{ secrets.SUPER_SECRET }}
         run: |
           echo "$SUPER_SECRET"
+          echo hello
+          echo "$SUPER_SECRET"
