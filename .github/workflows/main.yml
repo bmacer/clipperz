@@ -34,12 +34,12 @@ jobs:
         run: |
           echo Add other actions to build,
           ls -al
-          echo ${{ secrets.SUPER_SECRET }}
+          echo ${{ secrets.SECRET }}
       - name: bashy
         shell: bash
         env:
-          SUPER_SECRET: ${{ secrets.SUPER_SECRET }}
+          SECRET: ${{ secrets.SUPER_SECRET }}
         run: |
-          echo "$SUPER_SECRET"
+          echo "$SECRET"
           echo hello
           echo "$SUPER_SECRET"
