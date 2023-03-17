@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+    <title>Clipperz of Asheville</title>
+    <meta
+      content="Specializing in men’s grooming including: fades, flattops, tapers, undercuts, high & tights, buzz cuts, bald shaves, beard trims, plus a variety of modified styles and services"
+      name="description"
+    />
+    <meta content="" name="keywords" />
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.ico" rel="icon" />
+
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+      crossorigin="anonymous"
+    />
+
+    <!-- Template Main CSS File -->
+    <!-- <link href="assets/css/style.css" rel="stylesheet" /> -->
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Responsive meta tag -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@100&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-2Q37DMQXMQ"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-2Q37DMQXMQ");
+    </script>
+
+    <!-- Add the following styles to your CSS file or in a <style> block within the <head> -->
+    <style>
+      header {
+        background-color: white;
+        padding: 0.5rem 1rem;
+      }
+
+      nav ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+      nav ul li {
+        margin-right: 1rem;
+      }
+
+      nav ul li:last-child {
+        margin-right: 0;
+      }
+
+      nav ul li a {
+        color: black;
+        text-decoration: none;
+      }
+
+      nav ul li a:hover {
+        text-decoration: underline;
+      }
+
+      nav ul li:not(:first-child):not(:last-child) {
+        color: black;
+      }
+
+      .toc {
+        margin-top: 1rem;
+        text-align: center; /* Add this property */
+      }
+
+      .toc ul {
+        list-style-type: none;
+        padding: 0;
+      }
+
+      .toc li {
+        display: block;
+        justify-content: center;
+        margin: auto;
+        /* Remove 'float: center;' as it is not a valid property */
+      }
+
+      .toc ul li a {
+        font-family: "Encode Sans SC", sans-serif;
+        font-size: 16px;
+        color: black;
+        text-decoration: none;
+      }
+
+      .toc ul li a:hover {
+        text-decoration: underline;
+      }
+
+      .styled-hr {
+        border: 0;
+        height: 1px;
+        background-image: linear-gradient(
+          to right,
+          rgba(0, 0, 0, 0.1),
+          rgba(0, 0, 0, 0.75),
+          rgba(0, 0, 0, 0.1)
+        );
+        margin: 1rem 0;
+        width: 80%;
+        margin: auto;
+        margin-bottom: 100px;
+      }
+
+      .face-shape-container {
+        background-color: white;
+        padding: 2rem;
+        margin: 2rem auto;
+        border-radius: 8px;
+        box-shadow: 2px 2px 4px 6px rgba(0, 0, 0, 0.1);
+        width: 50%;
+      }
+
+      @media (max-width: 768px) {
+        .face-shape-container {
+          width: 90%;
+        }
+      }
+
+      .face-shape-title {
+        font-weight: bold;
+        margin-bottom: 1rem;
+        text-align: center;
+      }
+
+      .share-links {
+        display: flex;
+        justify-content: center;
+        margin-top: 1rem;
+      }
+
+      .share-links a {
+        /* color: black; */
+        text-decoration: none;
+        margin-right: 1rem;
+      }
+
+      .share-links a:last-child {
+        margin-right: 0;
+      }
+
+      .share-links a:hover {
+        opacity: 0.8;
+      }
+
+      .share-links i {
+        font-size: 1.5rem;
+      }
+
+      .face-shape-img {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        margin-bottom: 1rem;
+        border-radius: 8px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .post-date {
+        font-size: 0.9rem;
+        color: #777;
+        margin-bottom: 1rem;
+      }
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li>Clipperz of Asheville</li>
+        </ul>
+      </nav>
+    </header>
+
+    <hr class="styled-hr" />
+
+    <div class="toc">
+      <ul class="toc">
+        <li>
+          <a href="#how-to-choose-the-perfect-hairstyle"
+            >How to Choose the Perfect Hairstyle for Your Face Shape</a
+          >
+        </li>
+        <li>
+          <a href="#evolution-of-mens-hairstyles"
+            >The Evolution of Men's Hairstyles: A Journey Through Time</a
+          >
+        </li>
+      </ul>
+    </div>
+
+    <hr class="styled-hr" />
+
+    <!-- How to Choose the Perfect Hairstyle for Your Face Shape -->
+    <section
+      id="how-to-choose-the-perfect-hairstyle"
+      class="container mt-5 face-shape-container"
+    >
+      <h2 class="text-center">
+        How to Choose the Perfect Hairstyle for Your Face Shape
+      </h2>
+      <p class="post-date text-center">March 16, 2023</p>
+
+      <div class="share-links">
+        <a
+          href="https://twitter.com/intent/tweet?url=<YOUR-BLOG-POST-URL>&text=How%20to%20Choose%20the%20Perfect%20Hairstyle%20for%20Your%20Face%20Shape&via=<YOUR-TWITTER-USERNAME>"
+          target="_blank"
+          rel="noopener noreferrer"
+          title="Share on Twitter"
+          ><i class="fab fa-twitter"></i
+        ></a>
+        <a
+          href="https://www.facebook.com/sharer/sharer.php?u=<YOUR-BLOG-POST-URL>"
+          target="_blank"
+          rel="noopener noreferrer"
+          title="Share on Facebook"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+      </div>
+
+      <p class="lead">
+        Finding the perfect hairstyle can be a challenge, but understanding your
+        face shape can make it easier to choose a flattering cut that
+        accentuates your best features. In this guide, we'll help you identify
+        your face shape and offer recommendations for hairstyles that will suit
+        you best.
+      </p>
+
+      <div>
+        <h3 class="face-shape-title">Oval Face Shape</h3>
+        <img
+          src="./assets/img/blog/oval-shaped-face.png"
+          alt="Oval face shape example"
+          class="img-fluid face-shape-img"
+        />
+        <p>
+          Oval faces are characterized by a slightly longer length, with a
+          forehead that is only a bit wider than the chin. This balanced shape
+          is versatile and can pull off a variety of hairstyles. Classic short
+          cuts, pompadours, and slicked-back styles work well for oval faces.
+        </p>
+      </div>
+
+      <div>
+        <h3 class="face-shape-title">Round Face Shape</h3>
+        <img
+          src="./assets/img/blog/round-shaped-face.png"
+          alt="Round face shape example"
+          class="img-fluid face-shape-img"
+        />
+        <p>
+          Round faces have a similar width and length, with full cheeks and a
+          rounded chin. To create the illusion of a more elongated face, opt for
+          hairstyles that add height and volume at the top, such as pompadours,
+          quiffs, or faux hawks. Avoid cuts that are too short on the sides, as
+          they can accentuate the roundness of your face.
+        </p>
+      </div>
+
+      <div>
+        <h3 class="face-shape-title">Square Face Shape</h3>
+        <img
+          src="./assets/img/blog/square-shaped-face.png"
+          alt="Square face shape example"
+          class="img-fluid face-shape-img"
+        />
+        <p>
+          Square faces feature a strong, angular jawline and a broad forehead.
+          The width of the forehead, cheekbones, and jaw are nearly equal.
+          Textured, layered cuts can help soften the angles of a square face.
+          Both short and long hairstyles can work well, but avoid buzz cuts or
+          anything too short on the sides.
+        </p>
+      </div>
+
+      <div>
+        <h3 class="face-shape-title">Heart Face Shape</h3>
+        <img
+          src="./assets/img/blog/heart-shaped-face.png"
+          alt="Heart face shape example"
+          class="img-fluid face-shape-img"
+        />
+        <p>
+          Heart-shaped faces have a wider forehead that tapers down to a
+          narrower chin, often with prominent cheekbones. To balance the width
+          at the top of your face, choose hairstyles that add volume and
+          fullness around the jawline, such as a textured fringe, side-parted
+          styles, or longer cuts with layers.
+        </p>
+      </div>
+
+      <div>
+        <h3 class="face-shape-title">Diamond Face Shape</h3>
+        <img
+          src="./assets/img/blog/diamond-shaped-face.png"
+          alt="Diamond face shape example"
+          class="img-fluid face-shape-img"
+        />
+        <p>
+          Diamond faces have a narrow forehead and jawline, with the cheekbones
+          being the widest part of the face. To balance the narrowness at the
+          top and bottom, opt for hairstyles that add width around the forehead,
+          such as fringes or side-swept bangs. Layered cuts and textured styles
+          can also help soften the cheekbones.
+        </p>
+      </div>
+
+      <p>
+        Remember, these are just guidelines, and the most important factor is
+        choosing a hairstyle that makes you feel confident and comfortable. If
+        you're still unsure about the best style for your face shape, don't
+        hesitate to consult with our experienced barbers at Clipperz of
+        Asheville. We're here to help you look and feel your best!
+      </p>
+    </section>
+
+    <article
+      id="evolution-of-mens-hairstyles"
+      class="container mt-5 face-shape-container"
+    >
+      <!-- <article id="evolution-of-mens-hairstyles"> -->
+      <h2>The Evolution of Men's Hairstyles: A Journey Through Time</h2>
+      <p>Posted on: <time datetime="2023-03-17">March 17, 2023</time></p>
+      <!-- The Evolution of Men's Hairstyles: A Journey Through Time Share Links -->
+      <div class="share-links">
+        <a
+          href="https://twitter.com/intent/tweet?url=https://yourwebsite.com/blog#evolution-of-mens-hairstyles&text=The%20Evolution%20of%20Men's%20Hairstyles%3A%20A%20Journey%20Through%20Time&via=your-twitter-username"
+          target="_blank"
+          rel="noopener noreferrer"
+          title="Share on Twitter"
+          ><i class="fab fa-twitter"></i
+        ></a>
+        <a
+          href="https://www.facebook.com/sharer/sharer.php?u=https://yourwebsite.com/blog#evolution-of-mens-hairstyles"
+          target="_blank"
+          rel="noopener noreferrer"
+          title="Share on Facebook"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+      </div>
+
+      <hr />
+      <h3>Introduction</h3>
+      <p>
+        Throughout history, men's hairstyles have been an essential element of
+        individual expression, societal trends, and cultural identity. As we
+        take a journey through time, we'll explore how men's hairstyles have
+        evolved across different eras and what influenced these changes.
+      </p>
+      <!-- Placeholder for an introductory image -->
+      <img
+        src="./assets/img/blog/historical-mens-hair-styles.png"
+        alt="Various historical men's hairstyles"
+        style="width: 100%"
+      />
+      <h3>Ancient Civilizations: Egypt, Greece, and Rome</h3>
+      <p>
+        In ancient Egypt, men often shaved their heads for practical reasons,
+        such as hygiene and protection from lice. However, they also wore wigs
+        made from human hair, animal hair, or plant fibers for special occasions
+        or as status symbols. Men in ancient Greece and Rome sported a variety
+        of hairstyles, from short and curly to long and straight, often adorned
+        with wreaths or headbands.
+      </p>
+      <!-- Placeholder for an image of ancient hairstyles -->
+      <img
+        src="./assets/img/blog/ancient-egyptian-mens-hair-style.png"
+        alt="Ancient Egyptian, Greek, and Roman hairstyles"
+        style="width: 100%"
+      />
+      <h3>The Middle Ages and Renaissance: Nobility and Knights</h3>
+      <p>
+        During the Middle Ages and the Renaissance, men's hairstyles reflected
+        social status and occupation. Noblemen and knights often wore their hair
+        long and well-groomed, sometimes with elaborate braids or curls.
+        Meanwhile, shorter hairstyles were common among the lower classes and
+        those engaged in manual labor.
+      </p>
+      <!-- Placeholder for an image of Middle Ages and Renaissance hairstyles -->
+      <img
+        src="./assets/img/blog/renaissance-wig-mens-haircut.png"
+        alt="Hairstyles from the Middle Ages and Renaissance"
+        style="width: 100%"
+      />
+      <h3>The 18th and 19th Centuries: Wigs, Powder, and Sideburns</h3>
+      <p>
+        The 18th century saw the rise of wigs and powdered hair, which were
+        popular among European nobility and upper classes. Men's hairstyles in
+        the 19th century shifted toward more natural looks, with sideburns and
+        facial hair becoming popular. The Victorian era saw the emergence of the
+        pompadour, a hairstyle characterized by a high, swept-back front, which
+        remained popular into the early 20th century.
+      </p>
+      <!-- Placeholder for an image of 18th and 19th century hairstyles -->
+      <img
+        src="./assets/img/blog/cary-grant-haircut.png"
+        alt="Hairstyles from the 20th centuries"
+        style="width: 100%"
+      />
+      <h3>The 20th Century: Diversity and Rebellion</h3>
+      <p>
+        The 20th century saw an explosion of diversity in men's hairstyles,
+        reflecting shifting social values and the influence of popular culture.
+        Key trends included the following:
+      </p>
+      <!-- Placeholder for an image of 20th-century hairstyles -->
+      <img
+        src="./assets/img/blog/punk-david-bowie.png"
+        alt="Hairstyles from the 20th century"
+        style="width: 100%"
+      />
+      <ul>
+        <li>
+          <strong>1920s-1930s:</strong> The slicked-back look, influenced by
+          Hollywood stars like Clark Gable and Cary Grant, was popular during
+          this time.
+        </li>
+        <li>
+          <strong>1950s:</strong> The rockabilly quiffs and pompadours, inspired
+          by musicians such as Elvis Presley and Johnny Cash, became
+          fashionable.
+        </li>
+        <li>
+          <strong>1960s-1970s:</strong> Countercultural movements popularized
+          long hair, afros, and shaggy styles, while the mod subculture embraced
+          sharp, geometric cuts.
+        </li>
+        <li>
+          <strong>1980s:</strong> Punk-inspired styles, such as mohawks and
+          mullets, gained prominence, while pop culture icons like David Bowie
+          and Michael Jackson experimented with androgynous looks.
+        </li>
+        <li>
+          <strong>1990s:</strong> The grunge movement brought disheveled,
+          unkempt hairstyles to the forefront, while the hip-hop community
+          favored braids, cornrows, and high-top fades.
+        </li>
+      </ul>
+      <h3>The 21st Century: Individuality and Experimentation</h3>
+      <p>
+        In the 21st century, men's hairstyles continue to evolve, with
+        individuality and personal expression taking center stage. Some popular
+        trends include:
+      </p>
+      <!-- Placeholder for an image of 21st-century hairstyles -->
+      <img
+        src="./assets/img/blog/fade-haircut.png"
+        alt="Hairstyles from the 21st century"
+        style="width: 100%"
+      />
+      <ul>
+        <li>
+          <strong>Undercuts:</strong> Characterized by short sides and a longer
+          top, undercuts have become a versatile and popular choice for many
+          men.
+        </li>
+        <li>
+          <strong>Man buns:</strong> Long hair gathered into a bun at the back
+          of the head has seen a surge in popularity, particularly among hipster
+          and bohemian circles.
+        </li>
+        <li>
+          <strong>Fades:</strong> Gradually tapering hair on the sides and back
+          of the head, often combined with intricate designs, has become a
+          staple in barbershops worldwide.
+        </li>
+        <li>
+          <strong>Natural textures:</strong> Embracing natural hair textures,
+          such as curls and waves, has gained traction as more men prioritize
+          hair health and low-maintenance styling.
+        </li>
+      </ul>
+    </article>
+
+    <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+
+    <!-- bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
