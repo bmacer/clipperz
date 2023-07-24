@@ -1,7 +1,7 @@
 /* Template URL: https://bootstrapmade.com/bizland-bootstrap-business-template/ */
 
 .phone-icon {
-  display: none; /* Hide the icon by default */
+  display: block; /* Hide the icon by default */
   position: fixed;
   bottom: 20px;
   right: 20px;
@@ -18,13 +18,13 @@
   height: 50px;
   cursor: pointer;
 }
-
-/* Media query for mobile devices (adjust the breakpoint as needed) */
+/* 
 @media screen and (max-width: 768px) {
   .phone-icon {
-    display: block; /* Show the icon on mobile devices */
+    display: block; 
   }
-}
+} 
+*/
 
 /* begin desktop */
 @media (min-width: 768px) {
