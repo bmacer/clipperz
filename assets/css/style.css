@@ -1,7 +1,30 @@
 /* Template URL: https://bootstrapmade.com/bizland-bootstrap-business-template/ */
 
+.phone-icon {
+  display: none; /* Hide the icon by default */
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+  background: rgb(247, 242, 242);
+  border-radius: 50px;
+  padding: 20px;
+  border: 1px solid blue;
+}
 
+/* Adjust the size of the icon as needed */
+.phone-icon img {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
 
+/* Media query for mobile devices (adjust the breakpoint as needed) */
+@media screen and (max-width: 768px) {
+  .phone-icon {
+    display: block; /* Show the icon on mobile devices */
+  }
+}
 
 /* begin desktop */
 @media (min-width: 768px) {
@@ -9,8 +32,15 @@
     display: none;
   }
 
-  h1, h2, h3, h4, h5, h6, li, a {
-    font-family: 'Encode Sans SC', sans-serif;
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  li,
+  a {
+    font-family: "Encode Sans SC", sans-serif;
     list-style-type: none;
     text-transform: uppercase;
   }
@@ -22,7 +52,7 @@
     font-weight: 400;
     font-style: normal;
     font-size: 18px;
-    letter-spacing: .5em;
+    letter-spacing: 0.5em;
   }
 
   .navbar-brand {
@@ -31,7 +61,7 @@
 
   .navbar-light .navbar-nav .nav-link {
     color: white;
-    letter-spacing: .1rem;
+    letter-spacing: 0.1rem;
   }
 
   .topnav-centered {
@@ -76,7 +106,8 @@
     padding-top: 40px;
   }
 
-  .clipperz-section h2, h3 {
+  .clipperz-section h2,
+  h3 {
     margin: 50px 20% 50px 20%;
     font-weight: 600;
   }
@@ -92,7 +123,7 @@
   }
 
   .clipperz-section li {
-    font-size: 20px
+    font-size: 20px;
   }
   /* End Clipperz All Sections */
 
@@ -123,20 +154,19 @@
     width: 100%;
     height: 100%;
     -webkit-filter: grayscale(100%);
-      -moz-filter: grayscale(100%);
-        -ms-filter: grayscale(100%);
-        -o-filter: grayscale(100%);
-            filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
   }
 
-  .clipperz-midroll-image>img {
+  .clipperz-midroll-image > img {
     width: 100%;
   }
 
   h2.remove-bottom-margin {
     margin-bottom: 4px;
   }
-
 }
 
 /* mobile */
@@ -153,14 +183,19 @@
     visibility: hidden;
   }
 
-
-
   .carousel-item {
     max-height: 240px;
   }
 
-  h1, h2, h3, h4, h5, h6, li, a {
-    font-family: 'Encode Sans SC', sans-serif;
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  li,
+  a {
+    font-family: "Encode Sans SC", sans-serif;
     list-style-type: none;
     text-transform: uppercase;
   }
@@ -169,7 +204,7 @@
     font-size: 34px;
     margin-bottom: 10px;
   }
-  
+
   h3 {
     margin-left: 10%;
     margin-right: 10%;
@@ -196,7 +231,7 @@
     font-weight: 400;
     font-style: normal;
     font-size: 18px;
-    letter-spacing: .5em;
+    letter-spacing: 0.5em;
   }
 
   .navbar {
@@ -205,7 +240,7 @@
   .navbar-brand {
     text-align: center;
     width: 80%;
-    letter-spacing:.1rem;
+    letter-spacing: 0.1rem;
     font-size: 20px;
   }
   .navbar-light .navbar-nav .nav-link {
@@ -223,7 +258,7 @@
   .navbar-no-padding {
     padding-top: 0px;
     padding-bottom: 0px;
-  } 
+  }
   .main-title {
     font-size: 26px;
     padding-top: 0px;
@@ -248,7 +283,7 @@
   }
 
   .clipperz-section li {
-    font-size: 20px
+    font-size: 20px;
   }
 
   .clipperz-section h3 {
@@ -284,19 +319,17 @@
     width: 100%;
     height: 100%;
     -webkit-filter: grayscale(100%);
-      -moz-filter: grayscale(100%);
-        -ms-filter: grayscale(100%);
-        -o-filter: grayscale(100%);
-            filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
   }
 
-  .clipperz-midroll-image>img {
+  .clipperz-midroll-image > img {
     width: 100%;
   }
 
   h2.remove-bottom-margin {
     margin-bottom: 4px;
   }
-
 }
-
