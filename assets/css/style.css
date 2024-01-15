@@ -92,13 +92,16 @@
 
   .carousel-item {
     max-height: 1000px;
+    margin: 0 auto; /* Add this line to center the item */
+    transform: translateY(-200px);
   }
 
   /* Hero Section */
   .clipperz-hero {
     width: 100%;
     height: 75vh;
-    background-image: url("../img/clipz/image-13-clipped.png");
+    /* background-image: url("../img/clipz/image-13-clipped.png"); */
+    background-image: url("../img/2024/whole-shop.png");
     background-attachment: scroll;
     background-position: top center;
     background-size: cover;
@@ -189,7 +192,8 @@
   }
 
   .carousel-item {
-    max-height: 240px;
+    max-height: 740px;
+    height: 740px;
   }
 
   h1,
@@ -274,8 +278,8 @@
   .clipperz-hero {
     width: 100%;
     height: 75vh;
-    background-image: url("../img/clipz/image-13-clipped.png");
-
+    /* background-image: url("../img/clipz/image-13-clipped.png"); */
+    background-image: url("../img/2024/couch.png");
     background-attachment: scroll;
     background-position: top center;
     background-size: cover;
