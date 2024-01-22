@@ -192,8 +192,8 @@
   }
 
   .carousel-item {
-    max-height: 600px;
-    height: 600px;
+    max-height: 440px;
+    height: 440px;
   }
 
   h1,
@@ -341,4 +341,39 @@
   h2.remove-bottom-margin {
     margin-bottom: 4px;
   }
+}
+
+.box {
+  border: 1px solid black;
+  margin: 3px;
+}
+
+.shadow-box {
+  width: 95%;
+  justify-content: center;
+  margin: 0 auto;
+  border: 3px solid tan;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  /* margin-left: 4px; */
+  /* margin-right: 4px; */
+  background-color: rgb(245, 243, 239);
+}
+
+.shadow-box h2,
+.shadow-box h4 {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.card-title {
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+  /* border: 1px solid black; */
+  width: 100%;
+  /* background-color: grey; */
+  /* padding: 2px; */
+}
+
+.times {
+  font-family: "Times New Roman", Times, serif;
 }
