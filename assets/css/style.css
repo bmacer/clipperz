@@ -45,7 +45,8 @@
   h6,
   li,
   a {
-    font-family: "Encode Sans SC", sans-serif;
+    /* font-family: "Encode Sans SC", sans-serif; */
+    font-family: "Times New Roman", Times, serif;
     list-style-type: none;
     text-transform: uppercase;
   }
@@ -53,7 +54,7 @@
   /* begin navbar desktop */
   .navbar {
     background: none;
-    font-family: Playfair Display;
+    font-family: "Times New Roman", Times, serif;
     font-weight: 400;
     font-style: normal;
     font-size: 18px;
@@ -204,7 +205,7 @@
   h6,
   li,
   a {
-    font-family: "Encode Sans SC", sans-serif;
+    font-family: "Times New Roman", Times, serif;
     list-style-type: none;
     text-transform: uppercase;
   }
@@ -236,7 +237,7 @@
   /* navbar for mobile */
   .navbar {
     background: none;
-    font-family: Playfair Display;
+    font-family: "Times New Roman", Times, serif;
     font-weight: 400;
     font-style: normal;
     font-size: 18px;
@@ -376,4 +377,12 @@
 
 .times {
   font-family: "Times New Roman", Times, serif;
+}
+
+* {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.nav-link {
+  letter-spacing: 2px;
 }
