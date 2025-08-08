@@ -184,6 +184,15 @@
     display: none;
   }
 
+  /* Move Clipperz logo to the left in mobile navbar */
+  .navbar-brand img.inline {
+    margin-left: 0;
+    margin-right: auto;
+    display: block;
+    /* Adjust the value below as needed for your design */
+    transform: translateX(-22px);
+  }
+
   /* more precise anchor links */
   .anchor {
     display: block;
