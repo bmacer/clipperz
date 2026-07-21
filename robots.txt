@@ -1,0 +1,25 @@
+# Clipperz of Asheville crawler policy
+User-agent: *
+Allow: /
+Content-Signal: ai-train=no, search=yes, ai-input=yes
+
+# OpenAI search results
+User-agent: OAI-SearchBot
+Allow: /
+Content-Signal: ai-train=no, search=yes, ai-input=yes
+
+# User-directed browsing from Claude
+User-agent: Claude-Web
+Allow: /
+Content-Signal: ai-train=no, search=yes, ai-input=yes
+
+# Model-training crawlers
+User-agent: GPTBot
+Disallow: /
+Content-Signal: ai-train=no, search=yes, ai-input=yes
+
+User-agent: Google-Extended
+Disallow: /
+Content-Signal: ai-train=no, search=yes, ai-input=yes
+
+Sitemap: https://clipperzofasheville.com/sitemap.xml
